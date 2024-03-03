@@ -13,24 +13,109 @@
 </head>
 <body>
     <main>
-        <div class="container">
-            <h1 class="title m-5 text-center">Chess Moldova</h1>
-            <p class="motto mb-5 text-center">Noi cunoaștem totul despre șahul din Republica Moldova!</p>
-        </div>
-        <div class="container">
-            <div class="events"><h2 class="text-center mb-5">Evenimente</h2></div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
             <div class="container">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Ch-juniori-si-tineret-2024.png" class="card-img-top" alt="Juniori">
-                    <div class="card-body">
-                      <h5 class="card-title">Campionatul Naţional de Șah Juniori și Tineret – 2024</h5>
-                      <p class="card-text">Descopera evolutia tinerilor sahisti din Moldova!</p>
-                      <a href="/CRM juniori 2024/index.html" class="btn btn-primary">Citeste mai mult...</a>
-                    </div>
-                  </div>
+                <a href="/index.html" class="navbar-brand">Chess Moldova</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link">Acasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#stiri" class="nav-link">Stiri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#vademecum" class="nav-link">Vademecum</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+            </div>
+        </nav>
+
+    <!-- Hero Section -->
+
+
+        <section class="hero py-5 text-light">
+            <div class="container my-5">
+                <h1 class="title m-5 text-center">Chess Moldova</h1>
+                <p class="motto lead mb-5 text-center">Noi cunoaștem totul despre șahul din Republica Moldova!</p>
+            </div>
+        </section>
+        
+        <section class="py-5">
+        <div class="container">
+            <div class="events" id="stiri">
+                <h2 class="text-center mb-5">Știri</h2>
+            </div>
+                <div class="row g-4 mb-5 mx-auto">
+                    <div class="col-lg col-sm">
+                        <div class="card">
+                            <img src="img/Rating-martie-2024.png" class="card-img-top" alt="Juniori">
+                                <div class="card-body">
+                                <h5 class="card-title">Rating list curent</h5>
+                                <p class="card-text">Martie 2024</p>
+                                <a href="/Rating-list curent martie 2024/index.html" class="btn btn-primary">Citeste mai mult...</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-sm">
+                        <div class="card">
+                            <img src="img/Ch-juniori-si-tineret-2024.png" class="card-img-top" alt="Juniori">
+                                <div class="card-body">
+                                <h5 class="card-title">Campionatul Naţional de Șah Juniori și Tineret – 2024</h5>
+                                <p class="card-text">Descopera evolutia tinerilor sahisti din Moldova!</p>
+                                <a href="/CRM juniori 2024/index.html" class="btn btn-primary">Citeste mai mult...</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+<footer>
+    <section>
+        <div class="container">
+            <p class="lead text-light text-center py-5 m-1">Copyright &copy; 2024 Chess Moldova</p>
+            <a href="https://www.facebook.com/groups/ChessMoldova"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
+        
+    
+    
+    <svg class="editorial"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28 "
+    preserveAspectRatio="none">
+    <defs>
+    <path id="gentle-wave"
+    d="M-160 44c30 0 
+    58-18 88-18s
+    58 18 88 18 
+    58-18 88-18 
+    58 18 88 18
+    v44h-352z" />
+    </defs>
+    <g class="parallax1">
+    <use xlink:href="#gentle-wave" x="50" y="3" fill="#f461c1"/>
+    </g>
+    <g class="parallax2">
+    <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/>
+    </g>
+     <g class="parallax3">
+    <use xlink:href="#gentle-wave" x="50" y="9" fill="#fff"/>
+    </g>
+    <g class="parallax4">
+    <use xlink:href="#gentle-wave" x="50" y="6" fill="#3461c1"/>  
+    </g>
+    </svg>
+</section>
+</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
