@@ -10,13 +10,13 @@ h1, h2 {
     text-align: center;
 }
 
-.fsm-logo {
-    max-width: 300px;
-}
-
 .hero {
     margin-top: 72px;
 }
+
+.hero-image {
+    width: 100%;
+ }
 
 /* .baieti, .fete {
     display: flex;
@@ -24,10 +24,9 @@ h1, h2 {
     justify-content: center;
 } */
 
-
-
-@media only screen and (max-width: 600px) {
-    .hero-image {
-        width: 100%;
-    } 
-  }
+    @media only screen and (max-width: 600px) { 
+        .content img {
+            width: 300px;
+        }
+      }
+  
