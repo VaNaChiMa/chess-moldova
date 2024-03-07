@@ -27,7 +27,7 @@ h1, h2 {
 	        animation: rotate-center 1.5s ease-in-out both;
 }
 
-@-webkit-keyframes rotate-center {
+@keyframes rotate-center {
     0% {
       -webkit-transform: rotate(0);
               transform: rotate(0);
