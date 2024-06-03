@@ -40,7 +40,7 @@ body {
 footer {
     background-color:#03396c;
     position: relative;
-    height: 200px;
+    min-height: 230px;
 }
 
 .editorial {
