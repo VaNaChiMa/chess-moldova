@@ -10,6 +10,18 @@ h1, h2 {
     text-align: center;
 }
 
+.navbar-brand {
+  transition: .5s;
+  padding-inline: 3px;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+  background-color: #077c32;
+  padding-inline: 10px;
+}
+
+
 .hero-image {
    width: 100%;
 }
@@ -22,7 +34,6 @@ h1, h2 {
     border-bottom: 1px solid #e5e5e5;
     padding-block: 1rem;
 }
-
 
 
 hr.new-style {
