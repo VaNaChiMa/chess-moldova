@@ -10,6 +10,30 @@ h1, h2 {
     text-align: center;
 }
 
+.navbar-brand {
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #077c32;
+    transition: .5s;
+    border: 2px solid rgba(7, 124, 50, 0.2);
+    
+  }
+  
+  .navbar-brand:hover {
+    color: #fff;
+    background-color: #077c32;
+    border-radius: 12px;
+  }
+  
+  .nav-link {
+    transition: .5s;
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #077c32;
+  }
+
 .hero {
     margin-top: 72px;
 }
