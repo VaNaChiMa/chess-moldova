@@ -47,6 +47,17 @@ h1, h2 {
     padding-block: 1rem;
 }
 
+.sponsori {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.sponsori span {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
 
 hr.new-style {
     border: 0;
