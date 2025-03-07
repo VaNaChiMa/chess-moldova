@@ -1,0 +1,165 @@
+
+*,
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.navbar-brand {
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: #077c32;
+  transition: .5s;
+  border: 2px solid rgba(7, 124, 50, 0.2);
+  
+}
+
+.navbar-brand:hover {
+  color: #fff;
+  background-color: #077c32;
+  border-radius: 12px;
+}
+
+.nav-link {
+  transition: .5s;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #077c32;
+}
+
+.hero-image {
+   width: 100%;
+}
+
+.hero {
+    margin-top: 72px;
+}
+
+.content {
+    border-bottom: 1px solid #e5e5e5;
+    padding-block: 1rem;
+}
+
+.bi-flower1:hover {
+	-webkit-animation: rotate-center 1.5s ease-in-out both;
+	        animation: rotate-center 1.5s ease-in-out both;
+}
+
+@keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    50% {
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(-180deg);
+                transform: rotate(-180deg);
+      }
+  }
+  
+
+@media only screen and (max-width: 600px) { 
+    .content img {
+        width: 300px;
+    }
+  }
+
+hr.new-style {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer {
+    background-color:#03396c;
+    position: relative;
+    min-height: 280px;
+}
+
+.editorial {
+    display: block;
+    width: 100%;
+    height: 60px;
+    max-height: 60px;
+    margin: 0;
+    z-index:5;
+    bottom:0;
+    position:absolute;
+    left:0px;
+    float:left;
+  }
+  
+  .parallax1 > use {
+    animation: move-forever1 10s linear infinite;
+    &:nth-child(1) {
+      animation-delay: -2s;
+    }
+  }
+  .parallax2 > use {
+    animation: move-forever2 8s linear infinite;
+    &:nth-child(1) {
+      animation-delay: -2s;
+    }
+  }
+  .parallax3 > use {
+    animation: move-forever3 6s linear infinite;
+    &:nth-child(1) {
+      animation-delay: -2s;
+    }
+  }
+  .parallax4 > use {
+    animation: move-forever4 4s linear infinite;
+    &:nth-child(1) {
+      animation-delay: -2s;
+    }
+  }
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  @keyframes move-forever4 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+
+
+@media only screen and (max-width: 600px) { 
+    .content img {
+        width: 300px;
+    }
+  }
